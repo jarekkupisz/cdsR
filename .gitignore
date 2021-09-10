@@ -1,0 +1,10 @@
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+cdsR.Rproj
+packrat/*
+!packrat/packrat.lock
+!packrat/packrat.opts
+packrat/lib*/
+packrat/src/
