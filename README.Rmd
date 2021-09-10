@@ -28,7 +28,7 @@ As you may notice the package is not on CRAN, there are no runnable examples and
 
 Despite this, the package is fully featured, documented, and is ready for production-grade tasks. I am not affiliated with Microsoft in any way and this is not an official API by any means! However, as I use it daily in my work, I thought that other #rstats souls working with MS stack might find it very useful.
 
-Why `cdsR`? As the package was created by me months before MS decided to rebrand Common Data Service and I just stayed with the old name. What is more, Dataverse just has no sensible abbreviation which would work nicely with the package’s naming convention. 
+Why `cdsR`? As the package was created by me months before MS decided to rebrand Common Data Service, I just stayed with the old name. What is more, Dataverse just has no sensible abbreviation which would work nicely with the package’s naming convention. 
 
 ## Connecting to your Dataverse
 

@@ -37,7 +37,7 @@ daily in my work, I thought that other \#rstats souls working with MS
 stack might find it very useful.
 
 Why `cdsR`? As the package was created by me months before MS decided to
-rebrand Common Data Service and I just stayed with the old name. What is
+rebrand Common Data Service, I just stayed with the old name. What is
 more, Dataverse just has no sensible abbreviation which would work
 nicely with the package’s naming convention.
 
