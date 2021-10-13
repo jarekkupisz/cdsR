@@ -326,7 +326,8 @@ download_cds <- function(query,
       stringr::str_detect(LogicalName, "^owning"),
       AttributeType %in% "Lookup",
       !IsCustomAttribute,
-      LogicalName %in% names(result)
+      LogicalName %in% names(result),
+      !LogicalName %in% to_format_columns$lookups
     ) %>%
     dplyr::select(LogicalName, dplyr::any_of("Targets")) %>%
     dplyr::mutate(
